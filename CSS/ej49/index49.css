@@ -1,0 +1,29 @@
+body{
+    font-size: 16px;
+    background-color: #eee;
+}
+h2{
+    color: red;
+    display: none;
+}
+
+@media (max-width:412px){
+    body{
+        background-color: black;
+        color:white;
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+        display:none;
+    }
+    h2{
+        display: block;
+        font-size: 40px;
+    }
+}
+@media (max-width:732px) and (orientation:landscape){
+    body{
+        background-color: blue;
+    }
+}

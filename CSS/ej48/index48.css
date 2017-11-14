@@ -1,0 +1,11 @@
+.izquierda{
+    float: left;
+    width: 200px;
+    background-color: #ccc;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    clear: left;
+}

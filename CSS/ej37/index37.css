@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    background-color: #c2fafe;
+    border: 2px solid #0b9ea8;    
+}
+a:hover{
+    text-decoration: underline;
+    background-color: #0b9ea8;
+    color: white;
+}
+a:active{
+    background-color: white;
+}
+li{
+    padding:20px;
+    background-color: #eee;
+    border:1p solid black;
+}
+li:hover{
+    background-color:#ccc;
+    font-size: 120%;
+}
+li:last-child{
+    border:none;
+}
+li:first-child{
+    font-weight: bold;
+}
+li:active{
+    text-decoration: line-through;
+}

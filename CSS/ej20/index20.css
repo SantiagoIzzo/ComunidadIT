@@ -1,0 +1,8 @@
+div{
+    width: 200px;
+    background-color: red;
+}
+p{
+    min-width: 200px;
+    background-color: blue;
+}

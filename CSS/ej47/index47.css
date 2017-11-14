@@ -1,0 +1,18 @@
+body{
+    background-color: #ccc;
+}
+p{
+    position: fixed;
+    top: 100px;
+    left: 200px;
+    width: 300px;
+    background-color: #444;
+}
+.azul{
+    background-color: blue;
+    z-index: 1;
+}
+.rojo{
+    background-color: red;
+    z-index: 2;
+}

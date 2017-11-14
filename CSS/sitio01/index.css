@@ -1,0 +1,22 @@
+body{
+    background-image: url(fondo2.png);
+}
+
+
+body p{
+    border: 1px solid #808080;
+    background-color: #C2C1C1;
+}
+#javascript div, span, h4{
+    border: 1px solid #808080;
+    background-color: #C2C1C1;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+#network li{
+    margin-top: 60px;
+    list-style-type: none;
+}

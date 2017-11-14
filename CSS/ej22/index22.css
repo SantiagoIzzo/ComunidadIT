@@ -1,0 +1,15 @@
+hr{
+    border: 2px solid red;
+}
+div{
+    border: 3px dashed #ccc;
+}
+section{
+    border-bottom: 1px groove blue;
+}
+h2{
+    border-top: 1px solid orange;
+    border-bottom:2px groove red;
+    border-left: 3px dashed green;
+    border-right:4px dotted blue;
+}

@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color:white;
+}
+div{
+    color:red;
+    font-size: 100px;
+    line-height: 400px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    text-align: center;
+    width: 800px;
+    height: 400px;
+    background-color: #ccc;
+    margin-bottom: 50px;
+    background-image: url(fondo3.png);
+    background-repeat: no-repeat;
+}
+.uno{
+    background-repeat: repeat;
+}
+.dos{
+    background-position: right top;
+}
+.tres{
+    background-position: center center;
+}
+.cuatro{
+    background-position: left bottom;
+}
+.cinco{
+    background-position: 40px 30px;
+}

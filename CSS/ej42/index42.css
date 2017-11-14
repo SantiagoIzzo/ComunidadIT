@@ -1,0 +1,28 @@
+body{
+    width: 95%;
+   
+}
+form input{
+    margin: 0px 5px;
+}
+#datos-personales input{
+    font-size:20;
+    height: 30px;
+    text-align: center;
+    border-radius: 40% 40%;
+}
+form fieldset{
+    background-color: rgba(0, 72, 94, 0.06);
+}
+#favorito{
+    color: red;
+    font-size:20px;
+}
+
+#poderes{
+    border-top: 2px dashed blue;
+    border-bottom: 2px double blue;
+    color:green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
