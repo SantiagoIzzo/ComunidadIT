@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="css/general.css" rel="stylesheet">
+        <link href="css/nav.css" rel="stylesheet">
+        {{#each estilos}}
+            <link href={{this}} rel="stylesheet">
+        {{/each}}
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Sarpanch:900|Titillium+Web:900" rel="stylesheet">
+
+        <title>Club Deportivo Defensores de Hurlingham</title>
+    </head>
+    <body>
+        <div id="home" class="contenedor-general">
+                <div id="header">
+                    <div id="contenedor-logo-nombre">
+                            <img id="img-nav" src="img/img-nav/img-logo-solo.png" alt="Logo"/>
+                            <img id="img-nombre" src="img/img-nav/img-nombre.png" alt="Club Deportivo Defensores de Hurlingham"/>
+                    </div>
+                </div>    
+                <div id="nav">
+                        <ul id="lista-nav">
+                            <li><a href="/">Home</a></li>
+                            <li><a class="sin-link">Club</a>
+                                <ul class="lista-secundaria">
+                                    <li><a href="/comision-directiva">Comisión Directiva</a></li>
+                                    <li><a href="/aranceles">Cuota Social y Tarifas</a></li>
+                                    <li><a href="/contacto">Contacto</a></li>
+                                    <li><a href="/historia">Historia</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="sin-link">Socios</a>
+                                <ul class="lista-secundaria">
+                                    <li><a href="/portal">Portal de Socio</a></li>
+                                    <li><a href="/beneficios">Beneficios</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="sin-link">Deportes</a>
+                                <ul class="lista-secundaria">
+                                    <li><a href="/basquet">Basquet</a></li>
+                                    <li><a href="/voley">Voley</a></li>
+                                    <li><a href="/futsal">Contacto</a></li>
+                                    <li><a href="/futbol">Fútbol</a></li>
+                                    <li><a href="/futsal">Futsal</a></li>
+                                    <li><a href="/pelota-paleta">Pelota Paleta</a></li>
+                                    <li><a href="/patin.html">Patin</a></li>
+                                    <li><a href="/taekwondo">Taekwondo</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="sin-link">Actividades</a>
+                                <ul class="lista-secundaria">
+                                    <li><a href="/regaeton">Regaeton</a></li>
+                                    <li><a href="/zumba">Zumba</a></li>
+                                    <li><a href="/gap">G.A.P</a></li>
+                                    <li><a href="/hip-hop">Hip Hop</a></li>
+                                    <li><a href="/telas">Telas</a></li>
+                                    <li><a href="/folklore">Folklore</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="/eventos">Eventos</a></li>
+                            <li><a href="/institucional">Institucional</a></li>
+                            <li><a class="sin-link">Alquileres</a>
+                                <ul class="lista-secundaria">
+                                    <li><a href="/alquiler-salon">Salon de Fiestas</a></li>
+                                    <li><a href="/alquiler-cancha">Cancha de Futbol</a></li>  
+                                </ul>
+                            </li>
+                            <li><a href="#footer">Como llegar</a></li>
+                        </ul>
+                </div>
+                
+                <!--<h1>Club Deportivo Defensores de Hurlingham</h1>-->
+                
+                <div class="aside">
+                    <h2 class="h2-subline">Seguinos en:</h2>
+                    <div id="contenedor-redes-sociales">      
+                        <a href="">
+                            <img src="img/img-redes/img-facebook-silver2.png" alt="Facebook"/>
+                        </a>
+                            
+                        <a href="">
+                            <img src="img/img-redes/img-twitter-silver2.png" alt="Twitter"/>
+                        </a>
+                                
+                        <a href="">
+                            <img src="img/img-redes/img-instagram-silver2.png" alt="Instagram"/>
+                        </a>
+                
+                        <a href="">
+                            <img src="img/img-redes/img-youtube-silver2.png" alt="Youtube"/>
+                        </a>
+                    </div> 
+
+                    <img src="img/img-aside-izquierda/img-basquet.jpg" alt="Coloña de verano 2017"/>
+                    <img src="img/img-aside-izquierda/img-futbol.jpg" alt="Alquileres"/>
+                    <img src="img/img-aside-izquierda/img-heladeria.jpg" alt="Salon fiestas"/>
+                    <img src="img/img-aside-izquierda/img-pelota-paleta.jpg" alt="Salon fiestas"/>
+                    <img src="img/img-aside-izquierda/img-pleno-sol.png" alt="Super promo"/>
+                    <img src="img/img-aside-izquierda/img-sagucheria.jpg" alt="Gimnacio"/>
+                    <img src="img/img-aside-izquierda/img-voley.jpg" alt="Buffet"/>
+                </div>
+                <main>
+                    {{{body}}}
+                </main>
+
+                <div class="aside">   
+                    <img src="img/img-aside-derecha/img-coloña.png" alt="Coloña de verano 2017"/>
+                    <img src="img/img-aside-derecha/img-futbol.jpg" alt="Alquileres"/>
+                    <img src="img/img-aside-derecha/img-salon.jpg" alt="Salon fiestas"/>
+                    <img src="img/img-aside-derecha/img-natacion.jpg" alt="Salon fiestas"/>
+                    <img src="img/img-aside-derecha/img-promo.png" alt="Super promo"/>
+                    <img src="img/img-aside-derecha/img-gim.jpg" alt="Gimnacio"/>
+                    <img src="img/img-aside-derecha/img-buffet.jpg" alt="Buffet"/>
+                </div>
+                <div id="footer">
+                    <div id="informacion">
+                            <h2>Como llegar</h2>
+                            <br/>
+
+                            <h3>Dirección</h3>
+                            <p>Dr Delfor Díaz 1846</p>
+                            <br/>
+
+                            <h3>Horario de atención</h3>
+                            <p>Lunes a Viernes de 8:00 a 22:00</p>
+                            <p>Sabados de 9:00 a 13:00</p>
+                            <br/>
+
+                            <h3>Trenes</h3>
+                            <p>Linea San Martin: Estacion de Hurlingham</p>
+                            <p>Linea Uquiza: Ejército de los Andes, Ruben Dario</p>
+                            <br/>
+    
+                            <h3>Colectivos</h3>
+                            <p>Sobre Av. Roca: 244, 390, 463, 464</p>
+                            <p>Sobre Av. Vergara: 182 Rozales, 182 Marconi, 53, 53 Rapido</p>
+                            <p>Sobre Amoroso: 463 Ramal 3</p>
+                            <br/>
+    
+                            <h3>Contactos</h3>
+                            <p>Tel/Fax: 011 4438-3938</p>
+                            <p>E-mail: defensores.hurlingham@gmail.com</p>
+                            <br/>
+                    </div>     
+                    <div id="ubicacion">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8492232882486!2d-58.64062398487266!3d-34.58268148046492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb9521c6d4211%3A0x5d2a831dff1751fa!2sClub+Deportivo+Defensores+de+Hurlingham!5e0!3m2!1ses!2sar!4v1511045907255" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+        </div>
+        {{#each javascript}}
+            <script src={{this}} async defer></script>
+        {{/each}}
+    </body>
+</html>

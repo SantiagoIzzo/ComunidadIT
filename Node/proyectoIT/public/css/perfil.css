@@ -1,0 +1,52 @@
+#contenedor-mensajes{
+    width: 97%;
+    margin: 30px auto 0px auto;
+    border:2px solid rgb(00,63,37);
+    font-size: 22px;
+}
+
+#contenedor-perfil{
+    width: 95%;
+    margin: 0px auto;
+    border:2px solid rgb(00,63,37);
+    padding: 1%;
+}
+.asunto{
+    display: inline-block;
+    width: 45%;
+}
+.barra-mensaje{
+    width: 100%;
+    padding: 3px 0px 3px 0px;
+    font-size: 17px;
+}
+
+.boton{
+    margin-left: 1%;
+    text-align: center;
+    display: inline-block;;
+    width: 15%;
+    border-top: 0px;
+}
+.borrar{
+    box-shadow: 0px 0px 9px red inset;
+    background-color: rgba(255, 0, 0, 0.33);
+    color: red;
+}
+.leer{
+    box-shadow: 0px 0px 9px rgb(0, 80, 20) inset;
+    background-color: rgba(1, 128, 12, 0.65);
+    color:#003100;
+}
+.disciplina{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+.estilo-datos{
+    color:rgb(00,63,37);
+    font-size:25px;
+}
+.lista{
+    font-size:20px;
+}

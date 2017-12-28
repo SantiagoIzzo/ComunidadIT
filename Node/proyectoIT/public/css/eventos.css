@@ -1,0 +1,36 @@
+#calendario{
+    width: 90%;
+    margin: 40px auto 0px auto;
+}
+#iframe-calendario{
+    width: 100%;
+    margin-bottom: 60px;
+}
+#contenedor-eventos{
+    width: 93%;
+    margin: 0px auto;
+}
+.evento{
+    width: 46%;
+    margin: 0px 2% 50px 2%;
+    outline: 2px solid rgb(0,110,63);
+}
+.evento p{
+    margin: 0px 1% 5px 1%;
+}
+.evento h2{
+    margin: 0px 1% 5px 1%;
+}
+.evento h3{
+    margin: 0px 1% 5px 1%;
+}
+.evento img{
+    width: 100%;
+    height: 200px;
+}
+.flota-izquierda{
+    float: left;
+}
+.flota-derecha{
+    float: right;
+}

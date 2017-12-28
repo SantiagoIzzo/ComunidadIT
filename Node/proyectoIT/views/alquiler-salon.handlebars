@@ -1,0 +1,64 @@
+<h1 class=titulo-principal-main>Salon de Fiestas</h1> 
+                    <div id="descripcion">
+                        <p id="presentacion">
+                            Tenemos un salón cerrado y cubierto, con mesas y sillas, parrilla, cocina anexa con heladera con frezeer, vestuario, 2 baños, cachita de futbol.
+                            Estamos en Dr. Delfor Diaz 1846 a 5 cuadras del centro de Hurlingham, muy facil acceso, a 1 cuadra de Av. Vergara y Av. Julio Roca.</br>
+                            Tenemos como opcional:
+                        </p>
+                        <ul id="lista-opcionales">
+                                <li>Catering para adultos y niños</li>
+                                <li>Metegol</li>
+                                <li>Proyector</li>
+                                <li>Karaoke</li>
+                                <li>Castillo inflable</li>
+                                <li>Cama elástica</li>
+                                <li>Maquillaje</li>
+                                <li>Mágia</li>
+                                <li>Títeres</li>
+                                <li>Musicalización</li>
+                                <li>Ambientación</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="slider">
+                            
+                            <img class="slideSalon" src="img/img-salon/img-salon1.jpg"/>
+                            <img class="slideSalon" src="img/img-salon/img-salon2.jpg"/>
+                            <img class="slideSalon" src="img/img-salon/img-salon3.jpg"/>
+                            <img class="slideSalon" src="img/img-salon/img-salon4.jpg"/>
+                            
+                            <div id="contenedor-botones-aside">
+                                    <button id="boton-slider-izquierda" class="boton-slider" onclick="pasarDivsSalon(-1)">&#10094;</button>
+                                    <button id="boton-slider-derecha" class="boton-slider" onclick="pasarDivsSalon(+1)">&#10095;</button>
+                            </div>
+                    </div>
+
+                    <iframe id="calendario-salon"  class="calendario" src="https://calendar.google.com/calendar/embed?src=ulsuv2ordjhc2eur5dblvt2epg%40group.calendar.google.com&ctz=America%2FArgentina%2FBuenos_Aires" style="border: 0" frameborder="0" scrolling="no"></iframe>
+
+                    <div id="info-contacto" >
+                            <h2>Tel/Fax</h2>
+                            <h3>4438-3938</h3>
+                            <h2>E-mail</h2>
+                            <h3>defensores.hurlingham@gmail.com</h3>
+                    </div>
+
+                    <form class="contacto">
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre"/>
+                            </div>
+                            <div>
+                                <input type="text" name="telefono" placeholder="Telefono"/>
+                            </div>
+                            <div>
+                                <input type="email" name="email"  placeholder="E-mail"/>
+                            </div>
+                            <div>
+                                <input type="text" name="asunto"  value="Salon de Fiestas" disabled/>
+                            </div>
+                            <div>
+                                <textarea rows="15"  placeholder="Mensaje"></textarea>
+                            </div>
+                            <div>
+                                <input type="submit" name="submit" value="Enviar"/>
+                            </div>
+                    </form>

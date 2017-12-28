@@ -1,0 +1,50 @@
+.tabla{
+    text-align: center;
+    margin:40px auto 0px auto; 
+    color: white;
+    width: 100%;
+}
+.tabla td{
+    border: 2px solid white;
+    padding: 2px 0px;
+}
+#invisible1, #invisible2{
+    border: 2px solid white;
+    background-color: white;
+}
+#una-persona,#precio-una-persona{
+    background-color: #00AF5D;  
+}
+#categorias,#grupo-familiar, #aranceles{
+    background-color: rgb(0,110,63);  
+}
+.cabezera{
+    background-color: #3F3F3F;
+    height: 30px;
+    font-size: 25px;
+}
+.color-claro{
+    background-color: #00AF5D; 
+}
+.color-oscuro{
+    background-color: rgb(0,110,63);
+}
+.mitad{
+    width: 50%;
+}
+#lista-deportes{
+    list-style-type: none;
+    text-align: center;
+    margin: 40px auto;
+}
+#lista-deportes li{
+    margin: 10px;
+    display: inline-block;
+}
+#lista-deportes a{
+    padding: 4px 20px;
+    font-size: 20px;
+    color:white;
+    background-color: rgb(0,110,63);
+    text-decoration-line: none;
+}
